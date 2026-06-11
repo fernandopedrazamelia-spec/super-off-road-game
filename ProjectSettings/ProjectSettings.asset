@@ -1,0 +1,27 @@
+# Configuración recomendada para compilar a móvil
+# Copiar estos valores en ProjectSettings/ProjectSettings.asset
+
+# Resolution
+resolution.width=1080
+resolution.height=2340
+resolution.fullscreen=true
+
+# Player Settings
+companyName=SuperOffRoad
+productName=Super Off Road
+bundleIdentifier.iOS=com.superoffroad.game
+bundleIdentifier.Android=com.superoffroad.game
+versionString.iOS=1.0.0
+versionString.Android=1.0.0
+
+# Scripting Backend
+scriptingBackend.iOS=IL2CPP
+scriptingBackend.Android=IL2CPP
+
+# Target API Level
+targetAndroidSDKVersion=33
+
+# Permissions
+androidPermissions.INTERNET=true
+androidPermissions.ACCESS_NETWORK_STATE=true
+androidPermissions.ACCESS_FINE_LOCATION=false
